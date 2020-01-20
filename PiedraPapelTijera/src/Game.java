@@ -1,7 +1,7 @@
 /**
  * Clase principal.
- * VersiÃ³n 1.0
- * Autor: Profesor Entorno Desarrollo
+ * Versión 1.0.1
+ * Autor: Profesor Entorno Desarrollo (ampliación: JSG)
  */
 public class Game {
 
@@ -12,12 +12,12 @@ public class Game {
 	}
 
 	private void welcome() {
-		System.out.println("Bienvenido a nuestro pequeÃ±o juego: Piedra Papel Tijeras :-D");
+		System.out.println("Bienvenido al juego: Piedra Papel Tijeras Lagarto Espia :-D");
 	}
 
 	private void printHelp() {
 		System.out.println("");
-		System.out.println("Ordenes y comandos vÃ¡lidos para el juego: ");
+		System.out.println("Ordenes y comandos válidos para el juego: ");
 		parser.showCommands();
 	}
 
@@ -45,7 +45,7 @@ public class Game {
 		Move pcMove;
 
 		if (move.isUnknown()) {
-			System.out.println("OpciÃ³n No VÃ¡lida");
+			System.out.println("Opción no válida");
 			printHelp();
 			return true;
 		}
@@ -75,7 +75,7 @@ public class Game {
 			continuing = processMove(move);
 			round++;
 		}
-		System.out.println("Adios!!");
+		System.out.println("Adiós!!");
 	}
 
 	public static void main(String[] args) {
