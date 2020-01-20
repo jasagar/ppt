@@ -8,7 +8,7 @@ public class MoveWords{
 
     // private static final String[] validMoves = {"TIJERAS", "PAPEL", "PIEDRA"}; // ori
     private static final String[] validMoves = {"TIJERAS", "PAPEL", "PIEDRA", "LAGARTO", "ESPIA"};
-    private static final String[] validCommands = {"SALIR", "HELP"};
+    private static final String[] validCommands = {"SALIR", "AYUDA"};
 
     private Random rnd;
     
